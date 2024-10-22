@@ -1,0 +1,5 @@
+Encabezado de la Tarjeta
+imagen04.webp
+Título de la Tarjeta
+Este es un texto de ejemplo para la tarjeta que aparece aquí.
+Puedes agregar más información si lo deseas.

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>El Jardín Interior</title>
+    <link rel="stylesheet" href="estilo.css">
+    <header>
+        <nav class="navbar" style="padding: 0px 0px;">
+            <!-- Logo a la izquierda -->
+            <div class="navbar-logo">
+                <img src="Logo.png" alt="Logo" style="padding: 0px 5px;" class="logo">
+            </div>
+
+            <!-- Título en el centro -->
+            <div class="navbar-titulo" style="padding: 0px 10px;">
+                <h1>El Jardín Interior</h1>
+            </div>
+
+            <!-- Botones a la derecha -->
+            <div class="navbar-links">
+                <button class="navbar-btn">¿Qué Es El Jardín Interior? 
+                    <a href="#top"></a>
+                </button>
+                <button class="navbar-btn">Nuestras Series</button>
+                <button class="navbar-btn">Datos Curiosos</button>
+                <button class="navbar-btn">Detrás De Cámara</button>
+                <button class="navbar-nombre" id="mostrar-popup">¿Cómo Te Llamas?</button>
+            </div>
+        </nav>
+    </header>
+
+</head>
+
+<body>
+    <div class="top" id="top"></div>
+
+    <div class="contenido">
+
+        <div id="popup" class="popup">
+            <img src="HolaSoyMax.png" alt="Hola!">
+            <div style="background-color: white;" style="border: 0cap;" style="padding: 10px;">
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+                <button style="background-color: white;" id="boton-guardar">Guardar</button>
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+        <div class="bienvenida">
+            <div>
+                <img src="banner.webp" alt="">
+            </div>
+            <div class="bienvenidatexto" id="bienvenidatexto">
+                <h2 id="bienvenidanombre">Bienvenido al Microverso</h2>
+                <p id="bienvenidainfo">El Jardín Interior es un lugar entre la realidad y la fantasía, donde
+                    exploraremos las
+                    historias de los personajes que viven en ese micorverso que es la naturaleza de los insectos y las
+                    plantas.
+                    ¡Sigue nuestras aventuras! </p>
+            </div>
+        </div>
+    </div>
+    <div class="contenedortarjetas">
+        <div id="tarjeta" class="tarjeta">
+            <div class="encabezado01">REMI</div>
+            <img src="cami.webp" class="imagenpersonaje" alt="imagenpersonaje">
+            <div class="card-body">
+                <h3 class="infotitulo">Remi, Espiritu de los hongos</h3>
+                <p id="infotarjeta02">Remi es una nerviosa y asustadisa espiritu, que esta aprendiendo a controlar su
+                    poder:
+                    crecer los hongos!
+                </p>
+            </div>
+        </div>
+        <div id="tarjeta" class="tarjeta">
+            <div class="encabezado01">CAMI</div>
+            <img src="remi.webp" class="imagenpersonaje" alt="imagenpersonaje">
+            <div class="card-body">
+                <h3 class="infotitulo">Cami, El Purni</h3>
+                <p id="infotarjeta01">Los purni son una raza mezcla de plantas e insectos, son aventureros y
+                    despreocupados, viven en todos
+                    los bosques, aunque es muy dificil encontrarlos. Este pequeno purni se vera envuelto en una
+                    peligrosa carrera por salvr
+                    El Jardin Interior.</p>
+            </div>
+        </div>
+        <div id="tarjeta" class="tarjeta">
+            <div class="encabezado01">SAM</div>
+            <img src="sam.webp" class="imagenpersonaje" alt="imagenpersonaje">
+            <div class="card-body">
+                <h3 class="infotitulo">Sam, La Libelula</h3>
+                <p id="infotarjeta01">Companero fiel de Cami, le fascina volar por todos lados! Los acompana en todas las aventuras
+                    y no se rendira hasta que todos esten a salvo.
+                </p>
+            </div>
+        </div>
+        <div id="tarjeta" class="tarjeta">
+            <div class="encabezado01">MAX</div>
+            <img src="max.webp" class="imagenpersonaje" alt="imagenpersonaje">
+            <div class="card-body">
+                <h3 class="infotitulo">Max, el escarabajo toro</h3>
+                <p id="infotarjeta01">Un escarabajo timido, que encontrara su valor al mismo tiempo que descubre la amistad.
+                </p>
+            </div>
+        </div>
+        <div id="tarjeta" class="tarjeta">
+            <div class="encabezado01">SANSON</div>
+            <img src="sanson.webp" class="imagenpersonaje" alt="imagenpersonaje">
+            <div class="card-body">
+                <h3 class="infotitulo">Sanson, El Pelotero</h3>
+                <p id="infotarjeta01">No todo es felicidad en El Jardin Interior, y Sanson es muestra de ello, es un escarabajo que
+                    no reseta a nadie y se cree que puede tratar mal a todos, pero le espera una leccion!
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="nuestrasseries">
+        <img src="BannerInf.webp" alt="" style="max-width: 1500px;">
+    </div>
+
+    <!-- <button id="mostrar-popup">Dime Tu Nombre</button> -->
+
+    <script src="index.js"></script> <!-- Enlace a tu archivo JavaScript -->
+</body>
+
+</html>
